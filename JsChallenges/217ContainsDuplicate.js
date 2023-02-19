@@ -9,7 +9,7 @@ Input: nums = [1,2,3,1]
 Output: true
  */
 
-let nums = [1,2,3,4]
+let nums = [1,2,3,4];
 
 var containsDuplicate = function(nums) {
     nums.sort();
