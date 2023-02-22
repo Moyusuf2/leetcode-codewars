@@ -14,17 +14,20 @@ Output: 5
 Explanation: The last word is "World" with length 5.
 */
 
+let s = "Hello World";
 var lengthOfLastWord = function(s) {
     let lastWord = '';
     for(let i = 0; i < s.length; i++){
         if(s[i] !==' ' && (i === 0 || s[i-1] === ' ')){
-            lastWord = s[i]
+            lastWord = s[i];
         } else if(s[i] !==' ') {
             lastWord += s[i];
         }
     }
-    console.log(lastWord)
+    console.log(lastWord);
     return lastWord.length;
 };
 
+let result = lengthOfLastWord(s);
+console.log(result);
 //O(n)

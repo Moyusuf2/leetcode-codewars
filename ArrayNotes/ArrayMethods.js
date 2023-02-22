@@ -1,14 +1,14 @@
-const strings = ['a', 'b', 'c', 'd']
+const strings = ['a', 'b', 'c', 'd'];
 
 //4 * 4 = 16 bytes of storage
 
 
 //push - adds to the end of the array
-strings.push('e') // O(1)
+strings.push('e'); // O(1)
 
 //pop - removes from the end of the array
-strings.pop()  // O(1)
-strings.pop() // O(1)
+strings.pop();  // O(1)
+strings.pop();// O(1)
 
 //unshift - adds to the beginning of the array
 strings.unshift('x') //O(n) since it loops through the array and re-assigned the indexes -
@@ -17,9 +17,9 @@ strings.unshift('x') //O(n) since it loops through the array and re-assigned the
 
 //splice - can adds and removes array elements
 
-strings.splice(2,0,'m') //O(n/2) since it only loops through where the index starts. worse case will be O(n)
+strings.splice(2,0,'m'); //O(n/2) since it only loops through where the index starts. worse case will be O(n)
 
-console.log(strings)
+console.log(strings);
 
 // There are two types of arrays- static and dynamic
 
@@ -54,7 +54,7 @@ class myArray {
         this.data = {};
     }
     get(index) {
-        return this.data[index]
+        return this.data[index];
     }
 
     push(item) {
