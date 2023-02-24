@@ -31,3 +31,21 @@ var lengthOfLastWord = function(s) {
 let result = lengthOfLastWord(s);
 console.log(result);
 //O(n)
+
+//
+
+
+var lengthOfLastWord = function(s) {
+    s = s.trim(); 
+    let last = ''
+    console.log(s)
+    for(let i = s.length -1; i >= 0; i--){
+        if(s[i] != ' '){
+            last += s[i]
+        }
+        else{
+            return last.length;
+        }
+    }
+    return last.length
+};
