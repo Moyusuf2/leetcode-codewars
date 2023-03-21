@@ -72,3 +72,37 @@ newArray.delete(1);
 console.log(newArray);
 
 In this class, the length property keeps track of the number of elements in the array, and the data property is an object that stores the actual elements. The class provides methods for adding, removing, and getting elements from the array.
+
+Modifying Elements
+  splice: adds or removes elements from an array at a specified index and returns the removed elements.
+    const arr = [1, 2, 3, 4];
+    arr.splice(2, 1, 5); // [3]
+    // arr is now [1, 2, 5, 4]
+  fill: fills all the elements of an array from a start index to an end index with a static value.
+    const arr = [1, 2, 3, 4];
+    arr.fill(0, 1, 3); // [1, 0, 0, 4]
+  reverse: reverses the order of the elements in an array.
+    const arr = [1, 2, 3];
+    arr.reverse(); // [3, 2, 1]
+
+Querying and Filtering Elements
+  indexOf: returns the index of the first occurrence of a specified element in an array, or -1 if it is not found.
+    const arr = [1, 2, 3];
+    arr.indexOf(2); // 1
+
+  lastIndexOf: returns the index of the last occurrence of a specified element in an array, or -1 if it is not found.
+    const arr = [1, 2, 2, 3];
+    arr.lastIndexOf(2); // 2
+
+  includes: returns true if an array includes a specified element, otherwise false.
+    const arr = [1, 2, 3];
+    arr.includes(2); // true
+
+  filter: creates a new array with all the elements that pass a test implemented by a provided function.
+    const arr = [1, 2, 3, 4];
+    const filteredArr = arr.filter(num => num % 2 === 0); // [2, 4]
+
+Transforming Arrays
+  map: creates a new array with the results of calling a provided function on every element in the array.
+    const arr = [1, 2, 3];
+    const mappedArr = arr.map
