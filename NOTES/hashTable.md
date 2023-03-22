@@ -25,3 +25,46 @@
 - Search: O(n)
 - Insert: O(n)
 - Delete: O(n)
+
+# Creating a hash table
+To create a hash table in JavaScript, you can simply create an empty object:
+const hashTable = {};
+
+# Adding a key-value pair
+ To add a key-value pair to the hash table, you can use the following syntax:
+hashTable[key] = value;
+ For example:
+hashTable['apple'] = 5;
+hashTable['banana'] = 3;
+
+# Retrieving a value
+To retrieve a value from the hash table, you can use the following syntax:
+hashTable[key];
+ For example:
+console.log(hashTable['apple']); // Output: 5
+
+# Removing a key-value pair
+To remove a key-value pair from the hash table, you can use the delete keyword:
+delete hashTable[key];
+ For example:
+delete hashTable['apple'];
+
+# Checking if a key exists
+To check if a key exists in the hash table, you can use the in keyword or the hasOwnProperty method:
+key in hashTable;
+hashTable.hasOwnProperty(key);
+ For example:
+console.log('apple' in hashTable); // Output: false
+console.log(hashTable.hasOwnProperty('banana')); // Output: true
+
+# Getting all keys
+To get all keys in the hash table, you can use the Object.keys() method:
+Object.keys(hashTable);
+// For example:
+console.log(Object.keys(hashTable)); // Output: ['banana']
+
+# Getting all values
+To get all values in the hash table, you can use the Object.values() method:
+Object.values(hashTable);
+ For example:
+console.log(Object.values(hashTable)); // Output: [3]
