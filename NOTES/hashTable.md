@@ -68,3 +68,36 @@ To get all values in the hash table, you can use the Object.values() method:
 Object.values(hashTable);
  For example:
 console.log(Object.values(hashTable)); // Output: [3]
+
+# Map() and Set() in JavaScript
+
+Map() and Set() are two built-in JavaScript data structures that are related to the hash table. In fact, both of these data structures use hashing as an underlying mechanism for their implementation.
+
+## Map()
+
+The Map() data structure is similar to a hash table in that it allows you to store key-value pairs, where each key is unique. However, Map() provides additional functionality and methods that make it more versatile than a simple hash table. For example, Map() allows you to use any data type as a key, whereas a hash table typically only allows you to use strings or integers as keys.
+
+Some of the methods provided by the Map() data structure include:
+- set(key, value): sets the value for the specified key
+- get(key): returns the value associated with the specified key
+- has(key): returns a boolean indicating whether the specified key exists in the Map()
+- delete(key): removes the specified key-value pair from the Map()
+- clear(): removes all key-value pairs from the Map()
+- keys(): returns an iterator of all keys in the Map()
+- values(): returns an iterator of all values in the Map()
+- entries(): returns an iterator of all key-value pairs in the Map()
+
+## Set()
+
+The Set() data structure is another built-in data structure in JavaScript that is similar to a hash table. However, Set() is designed to store unique values only and does not store key-value pairs. Like Map(), Set() uses hashing as an underlying mechanism for its implementation.
+
+Some of the methods provided by the Set() data structure include:
+- add(value): adds the specified value to the Set()
+- delete(value): removes the specified value from the Set()
+- has(value): returns a boolean indicating whether the specified value exists in the Set()
+- clear(): removes all values from the Set()
+- values(): returns an iterator of all values in the Set()
+
+Both Map() and Set() are useful in a variety of scenarios and can help simplify and optimize your code.
+
+
