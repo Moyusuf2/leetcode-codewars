@@ -100,4 +100,5 @@ Some of the methods provided by the Set() data structure include:
 
 Both Map() and Set() are useful in a variety of scenarios and can help simplify and optimize your code.
 
+Copyright of Christian William Maki
 
