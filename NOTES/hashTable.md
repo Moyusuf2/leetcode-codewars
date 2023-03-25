@@ -8,7 +8,7 @@
  - Doesn't cluster outputs at specific indices, but distributes uniformly
  - Deterministic (same input yields same output every time)
 
-- COLLISION HANDLING
+# COLLISION HANDLING
 - When two different keys hash to the same index in a hash table, this is called a collision.
 - There are several ways to handle collisions:
 -  Separate Chaining: Each index in the array of the hash table points to a linked list of key-value pairs that collided at that index.
