@@ -12,13 +12,13 @@ Here, object1 and object2 both reference the same object in memory, while object
 
 # Context vs Scope
 In JavaScript, the this keyword refers to the context of the current function. This can be a bit confusing, as it is different from the concept of scope. For example:
-
+``
 const object4 = {
    a: function() {
        console.log(this);
    }
 }
-
+``
 Here, this refers to the context of object4, which is the object itself.
 
 # Instantiation
