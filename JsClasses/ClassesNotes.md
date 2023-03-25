@@ -4,9 +4,9 @@ JavaScript classes are a way to create objects with pre-defined properties and m
 # Reference Type
 In JavaScript, objects are reference types. This means that when you create an object and assign it to a variable, the variable actually contains a reference to the object in memory, rather than a copy of the object itself. For example:
 
-let object1 = { value: 10 }; //original
-let object2 = object1;      //references object1
-let object3 = { value: 10 }; //new object
+- let object1 = { value: 10 }; //original
+- let object2 = object1;      //references object1
+- let object3 = { value: 10 }; //new object
 
 Here, object1 and object2 both reference the same object in memory, while object3 is a completely new object with the same value.
 
