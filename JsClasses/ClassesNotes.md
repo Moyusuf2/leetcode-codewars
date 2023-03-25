@@ -24,7 +24,7 @@ Here, this refers to the context of object4, which is the object itself.
 # Instantiation
 Instantiation is the process of creating a new instance of a class. In JavaScript, you can create a new instance of a class using the new keyword. For example:
 
-class Player {
+"class Player {
    constructor(name, type) {
       console.log(this);
       this.name = name;
@@ -45,7 +45,7 @@ class Wizard extends Player {
 }
 
 const wizard1 = new Wizard('Shelly', 'Healer');
-const wizard2 = new Wizard('Shawn', 'Dark Magic');
+const wizard2 = new Wizard('Shawn', 'Dark Magic');"
 
 Here, wizard1 and wizard2 are both instances of the Wizard class. The super keyword is used to call the constructor of the Player class, which Wizard extends.
 
